@@ -1,5 +1,5 @@
 autofade = false;
-musicname = "patient"; //set your values here
+musicname = ""; //set your values here
 tracksnum = 3; //set your values here
 baserange = 10000; //set your values here (OPTIONAL)
 
@@ -15,12 +15,5 @@ show_debug_message("### --- Alternativaly, you can use variable_instance_set obj
 show_debug_message("### --- NOTE : you must set musicname and tracksnum BEFORE setting autofade to true if you havent");
 show_debug_message("### --- it doesnt support embedded audios, so they must be added on the project");
 show_debug_message("### --- NOTE THAT sync groups only work on compressed ogg or mp3 files");
-
-scr_createsyncgroup(true);
-scr_addtracks("patient", 0);
-scr_addtracks("patient", 1);
-scr_addtracks("patient", 2);
-scr_addtracks("patient", 3);
-scr_play();
 
 show_debug_log(true);
